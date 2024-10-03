@@ -1,38 +1,118 @@
-.App {
+.c1{
+  text-align: center;
+  border:3px solid black;
+  margin-left:400px;
+  margin-right:400px;
+  margin-top:100px;
+  background-color:grey;
+}
+@media only screen and (max-width: 500px){
+  .c1{
+    text-align:left;
+    border:3px solid black;
+    margin-left:400px;
+    margin-right:400px;
+    margin-top:100px;
+    background-color:grey;
+
+  }
+
+}
+.c2{
+   font-weight: 700;
+}
+.c3{
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top:7px;
+  padding-bottom:7px;
+  border-color: rgb(212, 100, 100);
+  background-color: rgb(192, 191, 176);
+  font-weight: 700;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 500px){
+  .c3{
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top:7px;
+  padding-bottom:7px;
+  border-color: rgb(212, 100, 100);
+  background-color: rgb(192, 191, 176);
+  font-weight: 700;
+  text-align:left;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.a3{
+  margin-left:10px;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-weight: 600;
+  font-size:15px;
+  text-align: center;
 
-.App-link {
-  color: #61dafb;
 }
+.a4{
+  /* margin-left:500px;  */
+  font-weight: 700;
+}
+.a5{
+ /* margin-left:500px; */
+ font-weight: 500;
+ font-size:20px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.a6{
+  margin-left:580px;
+  /* font-style:oblique; */
+}
+.a7{
+  margin-right:30px;
+  /* font-style:oblique; */
+
+}
+.a8{
+  margin-top:100px;
+  border:3px solid black;
+  box-sizing: content-box;
+  text-align: center;
+  margin-left:400px;
+  margin-right:400px;
+  background-color: gray;
+}
+.b1{
+  text-align: center;
+  border:3px solid black;
+  margin-left:400px;
+  margin-right:400px;
+  margin-top:100px;
+  background-color:grey;
+}
+.b2{
+  margin-right:50px ;
+  font-weight: 700;
+}
+.b3{
+  margin-right:57px ;
+  font-weight:700;
+}
+.b4{
+  margin-right:40px;
+  font-weight: 700;
+}
+.b5{
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top:7px;
+  padding-bottom:7px;
+  border-color: rgb(212, 100, 100);
+  background-color: rgb(192, 191, 176);
+  font-weight: 700;
+  text-align: center;
+}
+.d1{
+  text-align: center;
 }
